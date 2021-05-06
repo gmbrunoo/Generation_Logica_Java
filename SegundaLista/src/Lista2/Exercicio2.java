@@ -8,7 +8,7 @@ public class Exercicio2 {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		int par =0, impar=0, valor;
+		int par = 0, impar = 0, valor;
 		
 		for (int i = 1; i <= 10 ; i++) {
 			

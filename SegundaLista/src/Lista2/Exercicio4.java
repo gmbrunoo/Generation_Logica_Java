@@ -11,9 +11,10 @@ public class Exercicio4 {
 		  int totalCalmas = 0, totalNervosas = 0, totalAgressivas = 0, totalOutrosCalmos = 0;
 		  int totalJovensCalmos = 0, totalVelhos = 0, totalPessoas = 0, idade;
 		  char genero, personalidade;
-		  int i = 6;
+		  int i = 1;
 		  
 		  while (i > 0) {
+			  
 			  System.out.println("Obtendo dados...");
 			  System.out.println("Digite a sua idade: ");
 			  idade = ler.nextInt();
@@ -28,16 +29,6 @@ public class Exercicio4 {
 			  
 			  if(personalidade == 'c') {
 				  totalCalmas++;
-			  }
-			  
-			  if(personalidade != 'c' || personalidade != 'n' || personalidade != 'a' ) {
-				  System.out.println("Entrada inválida para a personalidade");
-				  return;
-			  }
-			  
-			  if(genero != 'm' || genero != 'f' || genero != 'o' ) {
-				  System.out.println("Entrada inválida para o genero");
-				  return;
 			  }
 			  
 			  if(genero == 'f' && personalidade =='n') {

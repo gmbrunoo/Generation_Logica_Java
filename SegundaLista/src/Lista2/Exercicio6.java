@@ -20,7 +20,7 @@ public class Exercicio6 {
 			}
 			
 		}while(numeros != 0);
-			media = soma / ( contador -1 );
+			media = soma / contador;
 		
 			System.out.println("A média dos numeros digitadas é: " + media);
 	}
